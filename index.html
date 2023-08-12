@@ -279,8 +279,8 @@
             <h2 class="">Web Design</h2>
                 <ul class="btn-wrap list-row" id="btn_web">
                     <li class="btn-tab ">2021</li>
-                    <li class="btn-tab active">2022</li>
-                    <li class="btn-tab">2023</li>
+                    <li class="btn-tab ">2022</li>
+                    <li class="btn-tab active">2023</li>
                 </ul>
                 <div id="web_slide" class="list-col">
                     <div class="web-box" data-project-year="2021">
@@ -965,7 +965,7 @@
 
         function loadWebList(){
             for(let i=0; i<$('.web-box').length; i++){
-                if($('.web-box').eq(i).attr('data-project-year') != '2022'){
+                if($('.web-box').eq(i).attr('data-project-year') != '2023'){
                     $('.web-box').eq(i).hide();
                 }
             }
